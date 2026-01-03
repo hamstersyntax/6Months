@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// Taking Prime Number
+// Program to Check whether  is Number prime or not
 int main()
 {
     bool isPrime(true);
