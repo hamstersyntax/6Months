@@ -15,7 +15,7 @@ int main()
             isPrime = false;
             break;
         }
-        cout << " Run----" << i << endl;
+
     }
     isPrime ? cout << n << " is prime " : cout << "Not a prime number";
     return 0;
