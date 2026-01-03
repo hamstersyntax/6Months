@@ -7,7 +7,6 @@ int main()
     int n;
     cout << "Enter A Number to Check ";
     cin >> n;
-
     for (int i = 2; i * i <= n; i++)
     {
         if (n % i == 0)
@@ -15,8 +14,7 @@ int main()
             isPrime = false;
             break;
         }
-
     }
-    isPrime ? cout << n << " is prime " : cout << "Not a prime number";
+    isPrime ? cout << n << " Is prime " : cout << "It's not a prime number";
     return 0;
 }
