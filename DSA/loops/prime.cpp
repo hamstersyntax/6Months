@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Taking Prime Number
 int main()
 {
     bool isPrime(true);
