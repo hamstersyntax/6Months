@@ -4,7 +4,6 @@ int main()
 {
     bool isPrime(true);
     int n;
-
     cout << "Enter A Number to Check ";
     cin >> n;
     for (int i = 2; i * i <= n; i++)
