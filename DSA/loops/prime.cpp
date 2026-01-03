@@ -15,6 +15,7 @@ int main()
             break;
         }
     }
+    // Print Output
     isPrime ? cout << n << " Is prime " : cout << "It's not a prime number";
     return 0;
 }
