@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// factorial
+// factorial problem 
 int main()
 {
     int N;
