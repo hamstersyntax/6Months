@@ -1,3 +1,4 @@
+from 
 urlpatterns = [
-    path("", .as_view(), name="")
+    path("", view.index), name="index")
 ]
