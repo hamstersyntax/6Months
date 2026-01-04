@@ -5,6 +5,6 @@ y =  int(input("Enter 2nd Value "));
 
 try:
     result = x/y;
-except:
-    
+except ZeroDivisionError:
+    print("Error! 0 Cann")
 print(result);
