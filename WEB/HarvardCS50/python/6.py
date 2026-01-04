@@ -1,1 +1,4 @@
-dikt = {"name":"Hammad"}
+dikt = {
+    "name":"Hammad",
+    "age":20
+    }
