@@ -6,7 +6,7 @@ while True:
     status = os.popen("git status --porcelain").read().strip()
 
     if status:
-        timestamp = datetime.now().strftime("%Y - %H:%M")
+        timestamp = datetime.now().strftime("%A - %H:%M")
         commit_message = f"commit at {timestamp}"
         os.system("git add .")
         os.system(f'git commit -m "{commit_message}"')
