@@ -8,7 +8,7 @@ os.system("cls");
 # for e in ls:
 #     print(e)
 
-st = {1,2,3,4,5,6,7,8,9,10}
+st = {1,2,3,4,5,6,7,8,9}
 for i in st:
     if i%2==0:
         print(i)
