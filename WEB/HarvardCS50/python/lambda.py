@@ -6,3 +6,4 @@ fruits = [
 ]
 
 fruits.sort(key=lambda fruit:fruit['name'])
+print(fruits);
