@@ -5,4 +5,4 @@ y =  int(input("Enter 2nd Value "));
 
 result = x/y;
 
-print
+print(result);
