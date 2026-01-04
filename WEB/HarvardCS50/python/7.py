@@ -2,5 +2,6 @@ import os;
 os.system("cls");
 # ======== FUNCTIONS =============
 def square(x):
-    print
+    print(x*x);
 
+for i in range(5)
