@@ -1,6 +1,6 @@
 dikt = {
-    "name":"Hammad",
+    "name":"Hamster",
     "age":20
     }
 for i , e in dikt:
-    print(i)
+    print(e)
