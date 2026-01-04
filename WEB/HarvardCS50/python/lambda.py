@@ -1,4 +1,6 @@
 import fnc ; fnc.clearScreen();
 fruits[
-    {"name"}
+    {"name","mango"},
+    {"name","mango"},
+    {"name","mango"}
 ]
