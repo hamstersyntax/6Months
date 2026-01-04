@@ -6,5 +6,7 @@ fruits.append("apple")
 print(fruits)
 fruits.sort()
 print(fruits)
+# sets of fruits
+
 
 
