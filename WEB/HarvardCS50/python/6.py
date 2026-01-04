@@ -10,5 +10,5 @@ for e in dikt: # for index
 for e in dikt.values(): # for values
     print(e)
 # for Both
-for e in dikt.values():
-    print(e)
+for i, e in dikt.items():
+    print(i e)
