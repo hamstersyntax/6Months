@@ -8,3 +8,4 @@ os.system("cls");
 # for e in ls:
 #     print(e)
 
+st = {1,2,3,4,5}
