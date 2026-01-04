@@ -5,3 +5,4 @@ fruits = [
     {"name","apple"}
 ]
 
+fruits.sort()
