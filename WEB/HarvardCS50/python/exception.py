@@ -7,6 +7,6 @@ try:
     result = x/y;
 except ZeroDivisionError:
     print("Error! 0 Cannot be divide")
-    sys.
+    sys.exit(1)
 
 print(result);
