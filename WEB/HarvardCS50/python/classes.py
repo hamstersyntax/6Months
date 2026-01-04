@@ -11,5 +11,6 @@ class Student():
         self.cName = name
 
 c =Student("Hamster",21);
+c.sayName()
 c.change("Rin",20)
 c.sayName()
