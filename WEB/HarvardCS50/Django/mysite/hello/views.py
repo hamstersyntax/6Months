@@ -4,4 +4,4 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("Syntax!!")
 def Hamster(request):
-    return HttpResponse("")
+    return HttpResponse("Hamster Syntax")
