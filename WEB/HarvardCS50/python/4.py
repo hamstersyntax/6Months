@@ -11,11 +11,11 @@ fruits = set();
 fruits.add("banana");
 fruits.add("apple");
 fruits.add("mango");
-fruits.remove("banana")
+# fruits.remove("banana")
 
 
 for i in fruits : 
-    print
+    print(i)
 
 
 
