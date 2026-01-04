@@ -1,2 +1,3 @@
 name = "Hamster"
-for vh
+for char in name:
+    print(char)
