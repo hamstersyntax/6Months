@@ -14,3 +14,4 @@ for i in st:
         print(i)
 
 em = [fr for e in ls ]
+print(em)
