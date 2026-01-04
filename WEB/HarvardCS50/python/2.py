@@ -1,5 +1,7 @@
 import 
 name =  input("Name : "); # getting input
 age = int(input("Age : ")); # type conversion
+
+#Print Method
 print(f"Your Name is {name}");
-print(f"Age is {age}");
+print("Age is " + age);
