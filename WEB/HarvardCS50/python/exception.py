@@ -1,5 +1,5 @@
 import sys;
-import fnc;fnc.clearScreen();
+i
 
 x =  int(input("Enter 1st Value "));
 y =  int(input("Enter 2nd Value "));
