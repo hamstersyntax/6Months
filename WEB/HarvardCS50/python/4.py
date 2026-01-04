@@ -1,8 +1,8 @@
 import os;
 os.system("cls");
 # List of fruits
-fruits = ["apple","mango"];
-fruits.append("apple")
+# fruits = ["apple","mango"];
+# fruits.append("apple")
 # print(fruits)
 # fruits.sort()
 # print(fruits)
