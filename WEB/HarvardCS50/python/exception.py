@@ -3,10 +3,11 @@ import os;
 os.system("cls");
 
 try:
-x =  int(input("Enter 1st Value "));
-y =  int(input("Enter 2nd Value "));
+x =  int(input("Enter 1st Value "))
+y =  int(input("Enter 2nd Value "))
 except ValueError:
     print("Error! Invalid Value , Must be Integer")
+
 
 try:
     result = x/y;
