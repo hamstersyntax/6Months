@@ -1,1 +1,1 @@
-from 7 
+from 7 import square
