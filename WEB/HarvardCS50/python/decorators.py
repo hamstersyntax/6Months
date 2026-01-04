@@ -10,5 +10,4 @@ def getName(fnc):
 @getName
 def sayName():
     print("My Name is Hasmter")
-
 sayName();
