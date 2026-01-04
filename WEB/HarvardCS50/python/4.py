@@ -8,7 +8,7 @@ fruits.sort()
 print(fruits)
 # sets of fruits
 fruitset = {"apple","mango","banana"}
-fruitset.append("apple")
+
 print(fruitset)
 
 
