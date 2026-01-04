@@ -2,5 +2,5 @@ dikt = {
     "name":"Hamster",
     "age":20
     }
-for i , e in dikt:
+for e in dikt.val:
     print(e)
