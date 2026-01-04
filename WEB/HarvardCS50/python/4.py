@@ -12,9 +12,9 @@ fruits.add("banana");
 fruits.add("apple");
 fruits.add("mango");
 fruits.remove("banana")
-print(len(fruits))
 
-for(int i = 0 ; i )
+
+for(int i = 0 ; i < len(fruits) )
 
 
 
