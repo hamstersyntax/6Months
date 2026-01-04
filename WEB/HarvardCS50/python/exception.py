@@ -7,7 +7,7 @@ try:
     y =  int(input("Enter 2nd Value "))
 except ValueError:
     print("Error! Invalid Value , Must be Integer")
-
+    sys.exit(1)
 try:
     result = x/y;
 except ZeroDivisionError:
