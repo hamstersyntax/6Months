@@ -5,7 +5,7 @@ dikt = {
     "name":"Hamster",
     "age":20
     }
-for e in dikt:
+for e in dikt: # for index
     print(e)
-for e in dikt.values():
+for e in dikt.values(): # for values
     print(e)
