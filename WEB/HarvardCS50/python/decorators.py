@@ -6,5 +6,6 @@ def getName(fnc):
         print("Done with fnc....")
         return wrapper;
     
-@sayName
-def 
+@getName
+def sayName():
+    print("")
