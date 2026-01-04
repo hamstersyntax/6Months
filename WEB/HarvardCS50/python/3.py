@@ -9,4 +9,4 @@ elif num < 0:
 else :
     print("is zero");
 
-swi
+switch
