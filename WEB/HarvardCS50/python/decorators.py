@@ -1,4 +1,5 @@
 import fnc;fnc.clearScreen();
+
 def getName(fnc):
     def wrapper():
         print("Before Running fnc...")
