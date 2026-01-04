@@ -1,6 +1,7 @@
 import fnc ; fnc.clearScreen();
-fruits[
+fruits = [
     {"name","mango"},
     {"name","banana"},
     {"name","apple"}
 ]
+
