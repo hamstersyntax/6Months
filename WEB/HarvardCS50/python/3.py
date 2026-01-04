@@ -11,6 +11,6 @@ num  = int(input("Enter Any Number : "));
 
 match num:
     case x if x >= 0:
-    print("Positive");
+        print("Positive");
     case _:
-    print("Negative");
+        print("Negative");
