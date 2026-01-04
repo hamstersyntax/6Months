@@ -8,7 +8,10 @@ os.system("cls");
 # print(fruits)
 # sets of fruits
 fruits = set();
-fruits.add
+fruits.add("banana");
+fruits.add("apple");
+fruits.add("apple");
+
 
 print(fruits)
 
