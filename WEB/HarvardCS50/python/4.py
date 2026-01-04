@@ -14,7 +14,8 @@ fruits.add("mango");
 fruits.remove("banana")
 
 
-for(int i = 0 ; i < len(fruits) )
+for(int i = 0 ; i < len(fruits) ; i++):
+    print(i)
 
 
 
