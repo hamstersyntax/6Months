@@ -11,7 +11,7 @@ fruits = set();
 fruits.add("banana");
 fruits.add("apple");
 fruits.add("apple");
-fruits.add("cababa");
+fruits.add("mango");
 
 
 print(fruits)
