@@ -8,3 +8,4 @@ class Student():
         print(f"Student : {self.cName} Age : {self.cAge}")
 
 c =Student("Hamster",20);
+c.sayName()
