@@ -8,4 +8,5 @@ def getName(fnc):
     
 @getName
 def sayName():
-    print("")
+    print("My Name is Hasmter")
+
