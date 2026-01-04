@@ -28,7 +28,3 @@ for i in st:
 em = [e for e in ls ] 
 print(em)
 # ['apple', 'mango', 'banana']
-
-for i in st {
-    print
-}
