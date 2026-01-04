@@ -6,5 +6,5 @@ y =  int(input("Enter 2nd Value "));
 try:
     result = x/y;
 except ZeroDivisionError:
-    print("Error! 0 Cann")
+    print("Error! 0 Cannot be devide")
 print(result);
