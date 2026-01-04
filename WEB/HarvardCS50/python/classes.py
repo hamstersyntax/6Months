@@ -2,6 +2,7 @@ import fnc; fnc.clearScreen();
 
 class Student():
     def __init__(self,name):
-        print(self)
+       getName = name;
+       
 
 c =Student("Hamster")
