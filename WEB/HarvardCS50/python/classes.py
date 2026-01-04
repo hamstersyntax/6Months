@@ -10,6 +10,6 @@ class Student():
         self.cAge = age
         self.cName = name
 
-c =Student("Hamster",20);
-c.change("Ri")
+c =Student("Hamster",21);
+c.change("Rin",20)
 c.sayName()
