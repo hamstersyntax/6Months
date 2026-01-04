@@ -1,9 +1,9 @@
-i = 10
-f =9.9
-s = "Hehe"
-c = 'A'
-arr = ["Hamster","Syntax"]
-tp = ("The","Programmer")
+i = 10  # integer
+f =9.9 # float
+s = "Hehe" # String
+c = 'A' # Character
+arr = ["Hamster","Syntax"]  # Array (muctual)
+tp = ("The","Programmer")   # Tuple (immutual)
 
 arr[1] = "Programmer"
 
