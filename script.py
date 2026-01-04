@@ -8,6 +8,7 @@ while True:
     if status:
         timestamp = datetime.now().strftime("%A - %H:%M")
         commit_message = f"commit at {timestamp}"
+        
         os.system("git add .")
         os.system(f'git commit -m "{commit_message}"')
         os.system("git push")
