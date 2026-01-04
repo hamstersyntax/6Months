@@ -7,13 +7,13 @@ os.system("cls");
 # fruits.sort()
 # print(fruits)
 # sets of fruits
-fruits = set();
-fruits.add("banana");
-fruits.add("apple");
-fruits.add("mango");
+# fruits = set();
+# fruits.add("banana");
+# fruits.add("apple");
+# fruits.add("mango");
 # fruits.remove("banana")
-for i in fruits : 
-    print(i)
+# for i in fruits : 
+#     print(i)
 
 
 
