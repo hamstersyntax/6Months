@@ -7,7 +7,7 @@ while True:
     commit_message = f"Some New Updates at {timestamp}"
 
     os.system("git add .")
-    os.system(f'git commit -am "{commit_message}"')
+    os.system(f'git commit -m "{commit_message}"')
     os.system("git push")
 
     time.sleep(10)  # 60 seconds = 1 minute
