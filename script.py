@@ -3,12 +3,14 @@ import time
 from datetime import datetime
 
 while True:
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    commit_message = f"Some New Updates at {timestamp}"
+    status = os.popen("git status --porcelain").read().strip()
 
-    os.system("git add .")
-    os.system(f'git commit -m "{commit_message}"')
-    os.system("git push")
+    if status:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        commit_message = f"auto commit at {timestamp}"
 
-    time.sleep(10)  # 60 seconds = 1 minute
+        os.system("git add .")
+        os.system(f'git commit -m "{commit_message}"')
+        os.system("git push")
 
+    time.sleep(10)
