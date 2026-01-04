@@ -12,11 +12,8 @@ fruits.add("banana");
 fruits.add("apple");
 fruits.add("mango");
 # fruits.remove("banana")
-
-
-for i , e in fruits : 
-    if i%2==0:
-        print(e)
+for i in fruits : 
+    print(i)
 
 
 
