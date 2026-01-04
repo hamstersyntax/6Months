@@ -1,8 +1,8 @@
 import fnc; fnc.clearScreen();
 
 class Student():
-    def __init__(self,name):
+    def __init__(self,name,age):
        cName = name;
-       cAge =age;
+       cAge  =  age;
 
 c =Student("Hamster")
