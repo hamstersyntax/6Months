@@ -12,4 +12,5 @@ num  = int(input("Enter Any Number : "));
 match num:
     case num > 0:
     print("Positive");
-    
+    case _:
+    print("Negative");
