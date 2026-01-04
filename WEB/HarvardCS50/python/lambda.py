@@ -1,0 +1,1 @@
+import fnc ; fnc.clearScreen();
