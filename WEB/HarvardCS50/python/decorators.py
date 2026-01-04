@@ -1,2 +1,3 @@
 import fnc;fnc.clearScreen();
-def sayName
+def sayName(fnc):
+    
