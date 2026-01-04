@@ -14,7 +14,7 @@ fruits.add("mango");
 fruits.remove("banana")
 print(len(fruits))
 
-
+for(int i = 0 ; i )
 
 
 
