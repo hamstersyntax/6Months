@@ -1,4 +1,14 @@
-im
+import os;
+os.system("cls");
 # name = "Hamster"
 # for char in name:
 #     print(char)
+
+
+
+
+
+
+
+
+
