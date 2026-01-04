@@ -7,7 +7,7 @@ while True:
 
     if status:
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        commit_message = f"auto commit at {timestamp}"
+        commit_message = f"commit at {timestamp}"
 
         os.system("git add .")
         os.system(f'git commit -m "{commit_message}"')
