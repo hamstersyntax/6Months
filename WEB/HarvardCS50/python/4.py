@@ -11,8 +11,7 @@ fruits = set();
 fruits.add("banana");
 fruits.add("apple");
 fruits.add("mango");
-
-
+fruits.remove("")
 print(fruits)
 print(len(fruits))
 
