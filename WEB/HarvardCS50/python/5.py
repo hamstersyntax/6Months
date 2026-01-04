@@ -13,5 +13,5 @@ for i in st:
     if i%2==0:
         print(i)
 
-em = [e for e in ls ]
+em = [e for e in ls ] # ['apple', 'mango', 'banana']
 print(em)
