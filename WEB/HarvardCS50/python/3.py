@@ -2,8 +2,8 @@ import os;
 os.system("cls");
 num  = int(input("Enter Any Number : "));
 if num > 0:
-    print("Positive")
+    print("Positive");
 else if num < 0:
-    print("Negative")
+    print("Negative");
 else :
     print("is zero");
