@@ -1,4 +1,3 @@
-import 
 name =  input("Name : "); # getting input
 age = int(input("Age : ")); # type conversion
 
