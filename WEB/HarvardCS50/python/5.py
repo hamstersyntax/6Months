@@ -4,4 +4,4 @@ os.system("cls");
 # for char in name:
 #     print(char)
 
-ls = []
+ls = ["apple","mango","banana"]
