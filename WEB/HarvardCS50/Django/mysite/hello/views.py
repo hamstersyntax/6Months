@@ -6,4 +6,5 @@ def index(request):
 def hamster(request):
     return HttpResponse("Hamster Syntax")
 def sayName(request,name):
-    return HttpResponse(f"Hello {name.capitalize()}")
+    # return HttpResponse(f"Hello {name.capitalize()}")
+    return render()
