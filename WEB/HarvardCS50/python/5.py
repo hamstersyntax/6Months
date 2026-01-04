@@ -29,4 +29,6 @@ em = [e for e in ls ]
 print(em)
 # ['apple', 'mango', 'banana']
 
-for
+for i in st {
+    print
+}
