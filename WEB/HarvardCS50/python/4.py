@@ -7,9 +7,9 @@ os.system("cls");
 # fruits.sort()
 # print(fruits)
 # sets of fruits
-fruitset = set();
-set(1) = "apple"
+fruits = set();
+fruits.add
 
-print(fruitset)
+print(fruits)
 
 
