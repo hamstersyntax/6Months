@@ -8,5 +8,5 @@ try:
 except ZeroDivisionError:
     print("Error! 0 Cannot be divide")
 except NameError:
-    
+    print("Undefine Variable")
 print(result);
