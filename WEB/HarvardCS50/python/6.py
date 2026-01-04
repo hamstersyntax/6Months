@@ -1,1 +1,1 @@
-dikt = 
+dikt = {"name":"Hammad"}
