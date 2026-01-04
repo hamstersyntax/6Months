@@ -5,5 +5,6 @@ y =  int(input("Enter 2nd Value "));
 
 try:
     result = x/y;
-
+except:
+    
 print(result);
