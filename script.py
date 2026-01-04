@@ -49,7 +49,7 @@ while True:
             file_list = ", ".join(files)
 
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        message = f"auto commit at {timestamp} | files: {file_list}"
+        message = f"commit at {timestamp} | files: {file_list}"
 
         run("git add .")
 
