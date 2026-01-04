@@ -1,2 +1,4 @@
 import fnc ; fnc.clearScreen();
-def fruits():
+fruits[
+    {"name"}
+]
