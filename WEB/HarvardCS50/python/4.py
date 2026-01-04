@@ -14,9 +14,9 @@ fruits.add("mango");
 # fruits.remove("banana")
 
 
-for i in fruits : 
+for i , e in fruits : 
     if len(fruits)%2==0:
-        print(i)
+        print(e)
 
 
 
