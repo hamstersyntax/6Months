@@ -6,8 +6,8 @@ class Student():
        self.cAge  =  age;
     def sayName(self):
         print(f"Student : {self.cName} Age : {self.cAge}")
-    def changeName(self,name,age):
-        
+    def change(self,name,age):
+        self.cAge = age
 
 c =Student("Hamster",20);
 c.sayName()
