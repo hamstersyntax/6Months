@@ -10,5 +10,5 @@ while True:
     os.system(f'git commit -am "{commit_message}"')
     os.system("git push")
 
-    time.sleep(5)  # 60 seconds = 1 minute
+    time.sleep(60)  # 60 seconds = 1 minute
 
