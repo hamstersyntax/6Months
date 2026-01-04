@@ -3,5 +3,5 @@ from django.http import HttpResponse
 # Create your views here.
 def index(request):
     return HttpResponse("Syntax!!")
-def Hamster(request):
+def hamster(request):
     return HttpResponse("Hamster Syntax")
