@@ -1,4 +1,5 @@
 import os;
 os.system("cls");
 # List of fruits
-fruits = ["apple","mango"]
+fruits = ["apple","mango"];
+print(fruits[0])
