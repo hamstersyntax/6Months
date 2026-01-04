@@ -1,1 +1,1 @@
-import fnc
+import fnc;fnc.
