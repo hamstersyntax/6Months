@@ -14,5 +14,7 @@ fruits.add("mango");
 
 
 print(fruits)
+print(len(fruits))
+
 
 
