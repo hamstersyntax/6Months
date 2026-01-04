@@ -5,3 +5,5 @@ os.system("cls");
 #     print(char)
 
 ls = ["apple","mango","banana"]
+for e in ls:
+    print(e)
