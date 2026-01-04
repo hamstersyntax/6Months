@@ -8,3 +8,5 @@ elif num < 0:
     print("Negative");
 else :
     print("is zero");
+
+swi
