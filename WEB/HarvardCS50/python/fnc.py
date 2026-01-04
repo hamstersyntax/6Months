@@ -4,4 +4,4 @@ def square(x):
 
 def clearScreen():
     import os;
-os.system("cls");
+    os.system("cls");
