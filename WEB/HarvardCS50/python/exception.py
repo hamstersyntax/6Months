@@ -1,6 +1,7 @@
 import sys;
 import os;
 os.system("cls");
+
 try:
 x =  int(input("Enter 1st Value "));
 y =  int(input("Enter 2nd Value "));
