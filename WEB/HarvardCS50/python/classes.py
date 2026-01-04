@@ -5,6 +5,6 @@ class Student():
        cName = name;
        cAge  =  age;
     def sayName(self):
-        print(f"Student : {cName} ")
+        print(f"Student : {self.cName} Age : {self.}")
 
 c =Student("Hamster")
