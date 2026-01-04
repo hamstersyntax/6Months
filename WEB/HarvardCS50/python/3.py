@@ -1,4 +1,5 @@
 import os;
 os.system("cls");
-num  = (input("Enter Any Number : "));
-print(num)
+num  = int(input("Enter Any Number : "));
+if num > 0:
+    
