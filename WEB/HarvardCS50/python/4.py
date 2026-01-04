@@ -15,7 +15,7 @@ fruits.add("mango");
 
 
 for i , e in fruits : 
-    if len(fruits)%2==0:
+    if i%2==0:
         print(e)
 
 
