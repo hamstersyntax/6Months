@@ -9,17 +9,7 @@ os.system("cls");
 # sets of fruits
 fruits = set();
 fruits.add("banana");
-fruits.add("banana");
-fruits.add("banana");
-fruits.add("banana");
-fruits.add("banana");
-fruits.add("banana");
 fruits.add("apple");
-fruits.add("apple");
-fruits.add("mango");
-fruits.add("mango");
-fruits.add("mango");
-fruits.add("mango");
 fruits.add("mango");
 
 
