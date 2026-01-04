@@ -1,3 +1,3 @@
 urlpatterns = [
-    path
+    path("", .as_view(), name="")
 ]
