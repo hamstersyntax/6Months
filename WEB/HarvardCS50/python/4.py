@@ -14,7 +14,8 @@ fruits.add("mango");
 fruits.remove("banana")
 
 
-for 
+for i in fruits : 
+    print
 
 
 
