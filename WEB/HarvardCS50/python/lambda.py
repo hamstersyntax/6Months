@@ -5,4 +5,4 @@ fruits = [
     {"name","apple"}
 ]
 
-fruits.sort()
+fruits.sort(key=lambda fruit:)
