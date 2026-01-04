@@ -1,1 +1,2 @@
-import("")
+import os;
+os.system("cls");
