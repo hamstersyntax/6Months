@@ -1,3 +1,4 @@
+import os;
 import fnc;fnc.clearScreen();
 
 x =  int(input("Enter 1st Value "));
