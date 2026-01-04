@@ -1,0 +1,3 @@
+# ======== FUNCTIONS =============
+def square(x):
+  return x*x

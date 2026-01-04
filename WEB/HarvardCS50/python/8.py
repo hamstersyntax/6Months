@@ -1,1 +1,3 @@
-from 7 import square
+from fnc import square
+
+
