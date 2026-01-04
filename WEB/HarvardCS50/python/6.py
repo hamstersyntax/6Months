@@ -9,3 +9,6 @@ for e in dikt: # for index
     print(e)
 for e in dikt.values(): # for values
     print(e)
+# for Both
+for e in dikt.values():
+    print(e)
