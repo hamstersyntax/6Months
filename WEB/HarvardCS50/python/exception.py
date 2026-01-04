@@ -1,4 +1,4 @@
-import os
+import sys;
 import fnc;fnc.clearScreen();
 
 x =  int(input("Enter 1st Value "));
@@ -8,6 +8,6 @@ try:
     result = x/y;
 except ZeroDivisionError:
     print("Error! 0 Cannot be divide")
-    os.exit(1)
+    sys.exit(1)
 
 print(result);
