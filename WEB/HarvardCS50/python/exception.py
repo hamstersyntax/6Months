@@ -5,7 +5,7 @@ try:
 x =  int(input("Enter 1st Value "));
 y =  int(input("Enter 2nd Value "));
 except ValueError:
-    
+    print("ErrorValue Must be")
 
 try:
     result = x/y;
