@@ -10,3 +10,4 @@ def getName(fnc):
 def sayName():
     print("My Name is Hasmter")
 
+sayName();
