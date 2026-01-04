@@ -1,4 +1,4 @@
 import os;
 os.system("cls");
-num = 10;
+num  = input("Enter Any Number")
 print(num)
