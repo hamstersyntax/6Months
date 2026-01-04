@@ -4,3 +4,6 @@ def sayName(fnc):
         print("Before Running fnc...")
         fnc()
         print("Done with fnc....")
+        return wrapper;
+    
+@
