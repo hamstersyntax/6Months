@@ -13,6 +13,4 @@ for i in st:
     if i%2==0:
         print(i)
 
-em = [fr for e in ls : ]
-for e in ls:
-    print(e)
+em = [fr for e in ls ]
