@@ -25,5 +25,8 @@ for i in st:
 # 4
 # 6
 # 8
-em = [e for e in ls ] # ['apple', 'mango', 'banana']
+em = [e for e in ls ] 
 print(em)
+# ['apple', 'mango', 'banana']
+
+for
