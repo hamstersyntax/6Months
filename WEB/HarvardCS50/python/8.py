@@ -2,7 +2,7 @@
 
 # for i in range(5):
 #      print(f"Square of {i} is {square(i)}")
-from fnc 
+import fnc 
 
 for i in range(5):
-     print(f"Square of {i} is {square(i)}")
+     print(f"Square of {i} is {fnc.square(i)}")
