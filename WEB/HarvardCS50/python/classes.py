@@ -4,6 +4,7 @@ class Student():
     def __init__(self,name,age):
        cName = name;
        cAge  =  age;
-    def sayName
+    def sayName():
+        print("")
 
 c =Student("Hamster")
