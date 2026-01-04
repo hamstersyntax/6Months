@@ -1,3 +1,3 @@
 import fnc;fnc.clearScreen();
 
- x =  int(input(""))
+ x =  int(input("Enter X "))
