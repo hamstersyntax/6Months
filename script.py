@@ -18,7 +18,7 @@ import subprocess
 import time
 from datetime import datetime
 
-INTERVAL = 60   # seconds
+INTERVAL = 10   # seconds
 MAX_FILES = 5
 
 
