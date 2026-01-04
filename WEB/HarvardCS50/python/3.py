@@ -10,4 +10,6 @@ num  = int(input("Enter Any Number : "));
 #     print("is zero");
 
 match num:
-    case
+    case num > 0:
+    print("Positive");
+    
