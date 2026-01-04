@@ -1,1 +1,1 @@
-import fnc;fnc
+import fnc;fnc.clearScreen();
