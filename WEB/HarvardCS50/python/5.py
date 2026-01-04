@@ -9,3 +9,5 @@ os.system("cls");
 #     print(e)
 
 st = {1,2,3,4,5}
+for i in st:
+    if i%2==0;
