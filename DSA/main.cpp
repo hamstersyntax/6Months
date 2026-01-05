@@ -11,12 +11,12 @@ int main()
         {
             cout << "*";
         }
-        innerSpaceLen
+        innerSpaceLen = innerSpaceLen - 2;
         for (int space = 0; space < innerSpaceLen; space++)
         {
             /* code */
         }
-        
+
         cout << endl;
     }
 
