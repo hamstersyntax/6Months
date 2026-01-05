@@ -9,6 +9,10 @@ int main()
     for (int row = 0; row < totalRow; row++)
     {
         int dist = abs(row - mid);
+        for (int l = 0; l < dist; l++)
+        {
+            /* code */
+        }
         
     }
 
