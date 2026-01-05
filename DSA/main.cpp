@@ -30,11 +30,11 @@ int main()
             cout << "*";
         }
         innerSpaceLen = innerSpaceLen - 2;
-        for (int space = 0; space < innerSpaceLen; space++)
+        for (int space = innerSpaceLen ; space < ; space++)
         {
             cout << " ";
         }
-        for (int r = 0; r < i + 1; r++)
+        for (int r = i + 1; r > 0; r--)
         {
             cout << "*";
         }
