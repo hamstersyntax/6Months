@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int n = 4;
+    // Upper Half
     for (int i = 0; i < n; i++)
     {
         for (int spaceL = n - i - 1; spaceL > 0; spaceL--)
@@ -23,7 +24,7 @@ int main()
     }
 
     // Lower Half
-     for (int i = 0; i < n; i++)
+    for (int i = n; i > 0; i--)
     {
         for (int spaceL = n - i - 1; spaceL > 0; spaceL--)
         {
