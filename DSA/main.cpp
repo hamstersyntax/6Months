@@ -12,7 +12,11 @@ int main()
         {
             cout << " ";
         }
-        cout << "*";
+        for (int k = 0; k < star; k++)
+        {
+            cout
+        }
+        
         cout << endl;
     }
     return 0;
