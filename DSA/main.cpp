@@ -7,7 +7,7 @@ int main()
     int innerSpaceLen = N + N;
     for (int i = 0; i < N; i++)
     {
-        for (int l = 0; l < N; l++)
+        for (int l = 0; l < i + 1; l++)
         {
             cout << "*";
         }
