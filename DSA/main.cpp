@@ -6,7 +6,13 @@ int main()
     int n = 5;
     for (int i = 0; i < n; i++)
     {
-        int spaces = n - i + 1 cout << endl;
+        int spaces = n - i + 1;
+        for (int j = 0; j < ; j++)
+        {
+            /* code */
+        }
+        
+        cout << endl;
     }
     return 0;
 }
