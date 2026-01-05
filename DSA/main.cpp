@@ -11,6 +11,10 @@ int main()
             cout << " ";
         }
         cout << "*";
+        if (condition)
+        {
+            /* code */
+        }
         
         cout << endl;
     }
