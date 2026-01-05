@@ -11,7 +11,7 @@ int main()
         {
             cout << "#";
         }
-        for (int star = 0; star < n; star++)
+        for (int star = 0; star < i + 1; star++)
         {
             cout << "*";
         }
