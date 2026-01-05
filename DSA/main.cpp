@@ -14,12 +14,9 @@ int main()
         {
             cout << j + 1;
         }
-        if (i != 0)
+        for (int j = i ; j > 0; j--)
         {
-            for (int j = 0; j < (i + 1); j++)
-            {
-                cout << j + 1;
-            }
+            cout << j;
         }
 
         cout << endl;
