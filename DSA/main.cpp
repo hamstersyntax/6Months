@@ -16,7 +16,7 @@ int main()
         }
         for (int k = 0; k < i; k++)
         {
-            
+            cout << i;
         }
         
         cout << endl;
