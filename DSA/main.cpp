@@ -23,5 +23,27 @@ int main()
         }
         cout << endl;
     }
+    // Lower Half
+for (int i = N - 1; i > 0; i--)
+{
+    for (int l = 0; l < i; l++)
+    {
+        cout << "*";
+    }
+
+    innerSpaceLen = innerSpaceLen + 2;
+    for (int space = 0; space < innerSpaceLen; space++)
+    {
+        cout << " ";
+    }
+
+    for (int r = 0; r < i; r++)
+    {
+        cout << "*";
+    }
+
+    cout << endl;
+}
+
     return 0;
 }
