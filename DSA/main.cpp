@@ -8,7 +8,7 @@ int main()
     int totalRow = 2 * n - 1;
     for (int row = 0; row < totalRow; row++)
     {
-        /* code */
+       
     }
 
     return 0;
