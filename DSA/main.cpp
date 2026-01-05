@@ -6,7 +6,7 @@ int main()
     int n = 4;
     for (int i = 0; i < n; i++)
     {
-        for (int spaceUL = n - i - 1; spaceUL > 0; spaceUL--)
+        for (int spaceL = n - i - 1; spaceL > 0; spaceL--)
         {
             cout << " ";
         }
