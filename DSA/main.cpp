@@ -6,11 +6,10 @@ int main()
     int n = 4;
     for (int i = 0; i < n; i++)
     {
-       for (int spaceUL = 0; spaceUL < ; spaceUL++)
-       {
-        /* code */
-       }
-       
+        for (int spaceUL = n; spaceUL > 0; spaceUL--)
+        {
+            cout << ""
+        }
     }
 
     return 0;
