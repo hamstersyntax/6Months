@@ -13,11 +13,12 @@ int main()
         cout << "*";
         if (i != 0)
         {
-            for (int spaceR = 0; spaceR <= ((2 * n) - 1); spaceR++)
+            for (int spaceR = 0; spaceR < ((2 * n) - 1); spaceR++)
             {
-                spaceR != ((2 * n) - 1) && cout << " ";
-                spaceR == ((2 * n) - 1) && cout << "*";
+                cout << "#";
+                
             }
+            
         }
 
         cout << endl;
