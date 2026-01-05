@@ -4,54 +4,27 @@ using namespace std;
 int main()
 {
     int N = 4;
-    int innerSpaceLen = N + N;
-    // Upper Half
-    for (int i = 0; i < N; i++)
-    {
-        for (int l = 0; l < i + 1; l++)
-        {
-            cout << "*";
-        }
-        innerSpaceLen = innerSpaceLen - 2;
-        for (int space = 0; space < innerSpaceLen; space++)
-        {
-            cout << " ";
-        }
-        for (int r = 0; r < i + 1; r++)
-        {
-            cout << "*";
-        }
-        cout << endl;
-    }
-    // Lower Half
-    for (int i = N - 1; i > 0; i--)
-    {
-        for (int l = 0; l < i; l++)
-        {
-            cout << "*";
-        }
+    int totalRows = 2 * N - 1;
 
-        innerSpaceLen = innerSpaceLen + 2;
-        for (int space = 0; space < innerSpaceLen; space++)
-        {
-            cout << " ";
-        }
+    for (int row = 1; row <= totalRows; row++)
+    {
+        int stars = (row <= N) ? row : (2 * N - row);
+        int spaces = 2 * (N - stars);
 
-        for (int r = 0; r < i; r++)
-        {
+        // Left stars
+        for (int i = 0; i < stars; i++)
             cout << "*";
-        }
+
+        // Inner spaces
+        for (int i = 0; i < spaces; i++)
+            cout << " ";
+
+        // Right stars
+        for (int i = 0; i < stars; i++)
+            cout << "*";
 
         cout << endl;
     }
 
     return 0;
 }
-
-// *      *
-// **    **
-// ***  ***
-// ********
-// ***  ***
-// **    **
-// *      *
