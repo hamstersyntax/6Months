@@ -8,12 +8,11 @@ int main()
     {
         for (int j = 0; j < i; j++)
         {
-            /* code */
+            cout << "*";
         }
-        
-       cout << endl;
-    }
 
+        cout << endl;
+    }
 
     return 0;
 }
