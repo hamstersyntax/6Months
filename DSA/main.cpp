@@ -30,7 +30,7 @@ int main()
             cout << "*";
         }
         innerSpaceLen = innerSpaceLen - 2;
-        for (int space = innerSpaceLen ; space < ; space++)
+        for (int space = innerSpaceLen; space > 0; space--)
         {
             cout << " ";
         }
