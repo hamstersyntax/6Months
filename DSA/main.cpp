@@ -16,7 +16,7 @@ int main()
         cout << "*";
 
         int innerSpaces = 2 * (n - mid - 1) - 1;
-        if (innerSpaces > 0)
+        if (innerSpaces >= 0)
         {
             for (int r = 0; r < innerSpaces; r++)
             {
