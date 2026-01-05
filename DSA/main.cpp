@@ -14,9 +14,29 @@ int main()
         innerSpaceLen = innerSpaceLen - 2;
         for (int space = 0; space < innerSpaceLen; space++)
         {
-            cout << "_";
+            cout << " ";
         }
-
+         for (int r = 0; r < i + 1; r++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
+     for (int i = 0; i < N; i++)
+    {
+        for (int l = 0; l < i + 1; l++)
+        {
+            cout << "*";
+        }
+        innerSpaceLen = innerSpaceLen - 2;
+        for (int space = 0; space < innerSpaceLen; space++)
+        {
+            cout << " ";
+        }
+         for (int r = 0; r < i + 1; r++)
+        {
+            cout << "*";
+        }
         cout << endl;
     }
 
