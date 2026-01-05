@@ -8,7 +8,7 @@ int main()
 
     for (int row = 1; row <= totalRows; row++)
     {
-        int stars = (row <= N) ? row : (2 * N - row);
+        int stars = (row <= N) ? row : 2 * (N - row);
         int spaces = 2 * (N - stars);
 
         // Left stars
