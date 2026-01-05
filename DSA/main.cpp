@@ -14,9 +14,9 @@ int main()
         {
             cout << j + 1;
         }
-        for (int k = 0; k < i; k++)
+        for (int j = 0; j < (i + 1); j++)
         {
-            cout << i+1;
+            cout << j + 1;
         }
         
         cout << endl;
