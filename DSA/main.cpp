@@ -11,7 +11,8 @@ int main()
         {
             cout << "*";
         }
-        for (int space = 0; space < inn; space++)
+        innerSpaceLen
+        for (int space = 0; space < innerSpaceLen; space++)
         {
             /* code */
         }
