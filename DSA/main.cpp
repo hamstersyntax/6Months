@@ -3,27 +3,31 @@ using namespace std;
 
 int main()
 {
-    int N = 4;
-    int totalRows = 2 * N - 1;
+    int n = 4;
+    int totalRows = 2 * n - 1;
+    int mid = n - 1;
 
-    for (int row = 1; row <= totalRows; row++)
+    for (int row = 0; row < totalRows; row++)
     {
-        int stars = (row <= N) ? row : 2 * N - row;
-        int spaces = 2 * (N - stars);
+        int dist = abs(row - mid);
 
-        // Left stars
-        for (int i = 0; i < stars; i++)
-            cout << "*";
-
-        // Inner spaces
-        for (int i = 0; i < spaces; i++)
+        // Left spaces
+        for (int s = 0; s < dist; s++)
             cout << " ";
 
-        // Right stars
-        for (int i = 0; i < stars; i++)
+        cout << "*";
+
+        // Inner spaces
+        int innerSpaces = 2 * (n - dist - 1) - 1;
+        if (innerSpaces >= 0)
+        {
+            for (int s = 0; s < innerSpaces; s++)
+                cout << " ";
             cout << "*";
+        }
 
         cout << endl;
     }
+
     return 0;
 }
