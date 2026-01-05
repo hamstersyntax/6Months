@@ -18,7 +18,11 @@ int main()
         int innerSpaces = 2*(n-mid-1)-1;
         if (innerSpaces>0)
         {
-            /* code */
+            for (int r = 0; r < innerSpaces; r++)
+            {
+                cout <<" ";
+            }
+            
         }
         
     }
