@@ -7,7 +7,11 @@ int main()
     int innerSpaceLen = N + N;
     for (int i = 0; i < N; i++)
     {
-        /* code */
+        for (int l = 0; l < ; l++)
+        {
+            /* code */
+        }
+        
     }
 
     return 0;
