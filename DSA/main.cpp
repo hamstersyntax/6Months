@@ -20,7 +20,7 @@ int main()
             cout << " ";
 
         // Right stars
-        for (int i = stars; i < stars; i++)
+        for (int i = stars; i > 0; i--)
             cout << "*";
 
         cout << endl;
