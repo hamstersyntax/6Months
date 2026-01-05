@@ -4,27 +4,30 @@ using namespace std;
 int main()
 {
     int n = 4;
-    int totalRow = 2 * n - 1;
+    int totalRows = 2 * n - 1;
     int mid = n - 1;
-    for (int row = 0; row < totalRow; row++)
+
+    for (int row = 0; row < totalRows; row++)
     {
         int dist = abs(row - mid);
-        for (int l = 0; l < dist; l++)
-        {
+
+        // Left spaces
+        for (int s = 0; s < dist; s++)
             cout << " ";
-        }
+
         cout << "*";
 
-        int innerSpaces = 2 * (n - mid - 1) - 1;
+        // Inner spaces
+        int innerSpaces = 2 * (n - dist - 1) - 1;
         if (innerSpaces >= 0)
         {
-            for (int r = 0; r < innerSpaces; r++)
-            {
+            for (int s = 0; s < innerSpaces; s++)
                 cout << " ";
-            }
             cout << "*";
         }
+
         cout << endl;
     }
+
     return 0;
 }
