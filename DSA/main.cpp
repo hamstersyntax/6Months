@@ -1,12 +1,13 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    for (size_t i = 0; i < count; i++)
+    int N = 4;
+    for (int i = 0; i < N; i++)
     {
         /* code */
     }
-    
+
     return 0;
 }
