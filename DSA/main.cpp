@@ -11,9 +11,13 @@ int main()
             cout << " ";
         }
         cout << "*";
-        if (condition)
+        if (i!=0)
         {
-            /* code */
+            for (int spaceR = 0; spaceR < n; spaceR++)
+            {
+                /* code */
+            }
+            
         }
         
         cout << endl;
