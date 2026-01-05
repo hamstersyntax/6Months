@@ -15,8 +15,9 @@ int main()
         {
             for (int spaceR = 0; spaceR < ((2 * n) - 1); spaceR++)
             {
-                cout << 
+                cout << " ";
             }
+            cout << "*";
         }
 
         cout << endl;
