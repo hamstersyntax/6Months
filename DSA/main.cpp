@@ -8,13 +8,13 @@ int main()
     {
         for (int space = 0; space < n - i - 1; space++)
         {
-            cout << "*";
+            cout << " ";
         }
         for (int j = 0; j < (i + 1); j++)
         {
             cout << j + 1;
         }
-
+        for
         cout << endl;
     }
     return 0;
