@@ -7,11 +7,10 @@ int main()
     int innerSpaceLen = N + N;
     for (int i = 0; i < N; i++)
     {
-        for (int l = 0; l < ; l++)
+        for (int l = 0; l < N; l++)
         {
-            /* code */
+            cout << "*";
         }
-        
     }
 
     return 0;
