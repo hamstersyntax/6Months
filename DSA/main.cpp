@@ -25,7 +25,7 @@ int main()
     innerSpaceLen = N + N;
     for (int i = 0; i > N; i++)
     {
-        for (int l = i+1; l < i + 1; l++)
+        for (int l = i + 1; l > 0; l--)
         {
             cout << "*";
         }
