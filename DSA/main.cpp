@@ -14,7 +14,7 @@ int main()
         innerSpaceLen = innerSpaceLen - 2;
         for (int space = 0; space < innerSpaceLen; space++)
         {
-            /* code */
+            cout << "_";
         }
 
         cout << endl;
