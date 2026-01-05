@@ -22,7 +22,7 @@ int main()
         }
         cout << endl;
     }
-    innerSpaceLen = 
+    innerSpaceLen = N + N;
     for (int i = N; i > 0; i--)
     {
         for (int l = 0; l < i + 1; l++)
