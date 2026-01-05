@@ -8,10 +8,10 @@ int main()
     {
         for (int spaceUL = n - i - 1; spaceUL > 0; spaceUL--)
         {
-            cout << "#";
-            cout << "*";
+            cout << " ";
         }
-
+        cout << "*";
+        
         cout << endl;
     }
 
