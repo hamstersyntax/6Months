@@ -24,9 +24,9 @@ int main()
     }
 
     // Lower Half
-     for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int spaceL = n - i - 1; spaceL > 0; spaceL--)
+        for (int spaceL = 0; spaceL < n - i - 1; spaceL++)
         {
             cout << " ";
         }
