@@ -10,11 +10,11 @@ int main()
         {
             cout << "*";
         }
-        for (int j = 0; j < count; j++)
+        for (int j = 0; j < (i + 1); j++)
         {
-            /* code */
+            cout << j + 1;
         }
-        
+
         cout << endl;
     }
     return 0;
