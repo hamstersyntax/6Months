@@ -14,7 +14,11 @@ int main()
         {
             cout << j + 1;
         }
-        for
+        for (int k = 0; k < i; k++)
+        {
+            /* code */
+        }
+        
         cout << endl;
     }
     return 0;
