@@ -11,6 +11,11 @@ int main()
         {
             cout << "*";
         }
+        for (int space = 0; space < inn; space++)
+        {
+            /* code */
+        }
+        
         cout << endl;
     }
 
