@@ -14,9 +14,8 @@ int main()
         }
         for (int k = 0; k < star; k++)
         {
-            cout
+            cout << "*";
         }
-        
         cout << endl;
     }
     return 0;
