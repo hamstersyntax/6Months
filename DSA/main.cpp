@@ -11,8 +11,10 @@ int main()
         int dist = abs(row - mid);
         for (int l = 0; l < dist; l++)
         {
-            /* code */
+            cout << " ";
         }
+        cout << "*";
+
         
     }
 
