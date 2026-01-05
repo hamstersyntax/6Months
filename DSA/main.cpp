@@ -22,10 +22,10 @@ int main()
         }
         cout << endl;
     }
-    innerSpaceLen = N+N;
-    for (int i = 0; i > 0; i--)
+    innerSpaceLen = N + N;
+    for (int i = 0; i > N; i++)
     {
-        for (int l = 0; l < i + 1; l++)
+        for (int l = i+1; l < i + 1; l++)
         {
             cout << "*";
         }
