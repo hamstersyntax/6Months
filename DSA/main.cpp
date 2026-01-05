@@ -24,14 +24,14 @@ int main()
     }
 
     // Lower Half
-     for (int i = n ; i > 1; i++)
+    for (int i = n; i > 1; i--)
     {
         for (int spaceL = n - i - 1; spaceL > 0; spaceL--)
         {
             cout << " ";
         }
         cout << "*";
-        if (i > 0)
+        if (i != 0)
         {
             for (int spaceR = 0; spaceR < ((2 * i) - 1); spaceR++)
             {
