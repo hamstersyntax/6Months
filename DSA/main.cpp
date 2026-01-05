@@ -6,7 +6,7 @@ int main()
     int N = 4;
     int totalRows = 2 * N - 1;
 
-    for (int row = 0; row = totalRows; row++)
+    for (int row = 1; row <= totalRows; row++)
     {
         int stars = (row <= N) ? row : (2 * N - row);
         int spaces = 2 * (N - stars);
