@@ -6,8 +6,7 @@ int main()
     int n = 5;
     for (int i = 0; i < n; i++)
     {
-       int spaces = 
-        cout << endl;
+        int spaces = n - i + 1 cout << endl;
     }
     return 0;
 }
