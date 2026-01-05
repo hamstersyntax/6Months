@@ -15,7 +15,7 @@ int main()
         }
         cout << "*";
 
-        
+        int innerSpaces = 2*(n-mid-1)
     }
 
     return 0;
