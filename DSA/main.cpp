@@ -19,7 +19,9 @@ int main()
         for (int i = 0; i < spaces; i++)
             cout << " ";
 
-        
+        // Right stars
+        for (int i = stars; i < stars; i++)
+            cout << "*";
 
         cout << endl;
     }
