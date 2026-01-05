@@ -16,13 +16,13 @@ int main()
         {
             cout << " ";
         }
-         for (int r = 0; r < i + 1; r++)
+        for (int r = 0; r < i + 1; r++)
         {
             cout << "*";
         }
         cout << endl;
     }
-     for (int i = 0; i < N; i++)
+    for (int i = N; i > 0; i--)
     {
         for (int l = 0; l < i + 1; l++)
         {
@@ -33,7 +33,7 @@ int main()
         {
             cout << " ";
         }
-         for (int r = 0; r < i + 1; r++)
+        for (int r = 0; r < i + 1; r++)
         {
             cout << "*";
         }
