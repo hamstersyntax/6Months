@@ -8,8 +8,9 @@ int main()
     {
         for (int spaceUL = n; spaceUL > 0; spaceUL--)
         {
-            cout << ""
+            cout << "#";
         }
+        cout << endl;
     }
 
     return 0;
