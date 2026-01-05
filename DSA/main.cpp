@@ -5,6 +5,7 @@ int main()
 {
     int N = 4;
     int innerSpaceLen = N + N;
+    // Upper Half
     for (int i = 0; i < N; i++)
     {
         for (int l = 0; l < i + 1; l++)
@@ -22,24 +23,5 @@ int main()
         }
         cout << endl;
     }
-    innerSpaceLen = N + N;
-    for (int i = 0; i > N; i++)
-    {
-        for (int l = i + 1; l > 0; l--)
-        {
-            cout << "*";
-        }
-        innerSpaceLen = innerSpaceLen - 2;
-        for (int space = innerSpaceLen; space > 0; space--)
-        {
-            cout << " ";
-        }
-        for (int r = i + 1; r > 0; r--)
-        {
-            cout << "*";
-        }
-        cout << endl;
-    }
-
     return 0;
 }
