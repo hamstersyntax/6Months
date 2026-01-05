@@ -15,7 +15,12 @@ int main()
         }
         cout << "*";
 
-        int innerSpaces = 2*(n-mid-1)
+        int innerSpaces = 2*(n-mid-1)-1;
+        if (innerSpaces>0)
+        {
+            /* code */
+        }
+        
     }
 
     return 0;
