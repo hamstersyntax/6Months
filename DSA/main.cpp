@@ -8,7 +8,7 @@ int main()
 
     for (int row = 0; row < totalRow; row++)
     {
-        int dist 
+        int dist = abs()
     }
     
     return 0;
