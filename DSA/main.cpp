@@ -12,6 +12,10 @@ int main()
         {
             cout << "#";
         }
+        for (int star = 0; star < n; star++)
+        {
+            /* code */
+        }
         
         
         cout << endl;
