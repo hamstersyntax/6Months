@@ -7,7 +7,7 @@ while True:
 
     if status:
         timestamp = datetime.now().strftime("%A - %H:%M")
-        commit_message = f"Day DSA Pattern / {timestamp}"
+        commit_message = f"Day 2 DSA Pattern / {timestamp}"
         os.system("git add .")
         os.system(f'git commit -m "{commit_message}"')
         os.system("git push")
