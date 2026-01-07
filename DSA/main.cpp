@@ -8,6 +8,7 @@ int main()
     {
         int hollow = n - 2;
         int stars = i == 0 || i == n ? n : 1;
+         cout << endl;
         for (int i = 0; i < stars; i++)
         {
             cout << "*";
@@ -20,7 +21,7 @@ int main()
         {
             cout << "*";
         }
-        cout << endl;
+       
     }
 
     return 0;
