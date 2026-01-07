@@ -20,7 +20,7 @@ int main()
         {
             cout << "*";
         }
-        i!==cout << endl;
+        i !=  n && cout << endl;
     }
 
     return 0;
