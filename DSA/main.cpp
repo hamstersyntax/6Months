@@ -16,7 +16,10 @@ int main()
         {
             cout << " ";
         }
-        
+        for (int i = 0; i < stars; i++)
+        {
+            cout << "*";
+        }
         cout << endl;
     }
 
