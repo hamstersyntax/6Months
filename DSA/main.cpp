@@ -8,17 +8,14 @@ int main()
     {
         cout << "*";
         // int hollow = n - 2;
-        
+
         // if (i == 0 || i == n - 1)
         // {
-           
-            
+
         // }
-       
-       
 
         cout << endl;
-        
+        cout << "*";
     }
 
     return 0;
