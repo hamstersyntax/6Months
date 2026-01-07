@@ -8,7 +8,12 @@ int main()
     int mid = 2 * n - 1;
     for (int row = 0; row < totalRow; row++)
     {
-        int stars = row <= mid ? 2 * row + 1 : (2)
+        int stars = row <= mid ? 2 * row + 1 : (2 * row + 1) - 2;
+        for (int i = 0; i < count; i++)
+        {
+            /* code */
+        }
+        
     }
 
     return 0;
