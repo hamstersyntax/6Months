@@ -16,7 +16,6 @@ int main()
                 cout << " ";
             }
             cout << "*";
-            cout << endl;
         }
         else
         {
@@ -25,6 +24,7 @@ int main()
                 cout << "*";
             }
         }
+        cout << endl;
     }
 
     return 0;
