@@ -9,12 +9,13 @@ int main()
     {
         cout << "*";
 
-        if (i == 0 || i == n - 1)
+        if (i != 0 || i != n - 1)
         {
-
+            for (int i = 0; i < hollow; i++)
+            {
+                cout << " ";
+            }
         }
-
-        
     }
 
     return 0;
