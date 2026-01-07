@@ -10,7 +10,11 @@ int main()
         int stars = i==0||i==n ? n : 1;
         for (int i = 0; i < stars; i++)
         {
-            /* code */
+            cout << "*";
+        }
+        for (int i = 0; i < stars; i++)
+        {
+            cout << "*";
         }
         
     }
