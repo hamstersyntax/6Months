@@ -11,10 +11,12 @@ int main()
 
         if (i != 0 || i != n - 1)
         {
+            cout << "*";
             for (int i = 0; i < hollow; i++)
             {
                 cout << " ";
             }
+            cout << "*";
         }
     }
 
