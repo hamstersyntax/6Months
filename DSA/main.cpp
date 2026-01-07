@@ -8,7 +8,7 @@ int main()
     int mid = 2 * n - 1;
     for (int row = 0; row < totalRow; row++)
     {
-        int stars = row <= totalRow ? 2 * row + 1 : (2 * row + 1) - 2;
+        int stars = row <= totalRow ? 2 * row + 1 : stars - 2;
         for (int i = 0; i < stars; i++)
         {
             cout << "*";
