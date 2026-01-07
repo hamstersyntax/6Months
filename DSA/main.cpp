@@ -6,9 +6,9 @@ int main()
     int n=5;
     int totalRow = 2*n-1;
     int mid = 2*n-1;
-    for (int i = 0; i < count; i++)
+    for (int row = 0; row < totalRow; row++)
     {
-        /* code */
+        int stars = 
     }
     
     return 0;
