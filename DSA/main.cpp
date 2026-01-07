@@ -9,11 +9,11 @@ int main()
     for (int row = 0; row < totalRow; row++)
     {
         int stars = row <= mid ? 2 * row + 1 : (2 * row + 1) - 2;
-        for (int i = 0; i < count; i++)
+        for (int i = 0; i < stars; i++)
         {
-            /* code */
+            cout << "*";
         }
-        
+        cout << endl;
     }
 
     return 0;
