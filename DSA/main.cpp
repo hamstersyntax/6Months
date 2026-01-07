@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int n = 9;
+    int n = 5;
     int hollow = n - 2;
     for (int i = 0; i < n; i++)
     {
