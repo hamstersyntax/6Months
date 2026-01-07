@@ -17,7 +17,7 @@ int main()
             cout << endl;
         }
         cout << "*";
-        for (int i = 0; i < hollow; i++)
+        for (int i = 1; i < hollow; i++)
         {
             cout << " ";
         }
