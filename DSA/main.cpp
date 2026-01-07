@@ -12,6 +12,10 @@ int main()
         {
             cout << "*";
         }
+        for (int i = 0; i < hollow; i++)
+        {
+            cout << " ";
+        }
         for (int i = 0; i < stars; i++)
         {
             cout << "*";
