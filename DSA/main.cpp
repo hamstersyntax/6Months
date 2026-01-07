@@ -8,7 +8,7 @@ int main()
     {
         int hollow = n-2;
         int stars = i==0||i==n ? n : 1;
-        for (int i = 0; i < count; i++)
+        for (int i = 0; i < stars; i++)
         {
             /* code */
         }
