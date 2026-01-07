@@ -7,10 +7,6 @@ int main()
     int hollow = n - 2;
     for (int i = 0; i < n; i++)
     {
-        for (int i = 0; i < n; i++)
-        {
-            cout << "*";
-        }
 
         if (i != 0 || i != n - 1)
         {
@@ -20,10 +16,15 @@ int main()
                 cout << " ";
             }
             cout << "*";
-        cout << endl;
-          
+            cout << endl;
         }
-       
+        else
+        {
+            for (int i = 0; i < n; i++)
+            {
+                cout << "*";
+            }
+        }
     }
 
     return 0;
