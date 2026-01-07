@@ -20,8 +20,9 @@ int main()
                 cout << " ";
             }
             cout << "*";
+            cout << endl;
         }
-        
+        cout << endl;
     }
 
     return 0;
