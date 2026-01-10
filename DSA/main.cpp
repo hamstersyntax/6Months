@@ -8,10 +8,10 @@ int reverse(int n)
     int rem;
     while (n > 0)
     {
-        result += pow;
-        
+        result += pow(2, n % 10);
         n /= 10;
     }
+    cout << result;
 }
 int main()
 {
