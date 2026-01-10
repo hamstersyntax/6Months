@@ -1,15 +1,23 @@
 #include <iostream>
 using namespace std;
-
-int main()
+string decToBinary(int num)
 {
-    int num = 42;
     string binary = "";
     while (num > 0)
     {
         binary = to_string(num % 2) + binary;
         num /= 2;
     }
-    cout << binary; // 101010
+
+    return binary;
+}
+int main()
+{
+    for (int i = 0; i < 10; i++)
+    {
+        i != 0
+            ? cout << i << " - " << decToBinary(i) << endl
+            : cout << i << " - " << "0" << endl;
+    }
     return 0;
 }
