@@ -1,21 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-string decToBinary (int num){
+string decToBinary(int num)
+{
     string binary = "";
-    while (num>0)
+    while (num > 0)
     {
-        binary = to_string(num%2)+binary;
+        binary = to_string(num % 2) + binary;
         num /= 2;
     }
-    
+
     return binary;
 }
 int main()
 {
-    for (int i = 0; i < ; i++)
+    for (int i = 0; i < 10; i++)
     {
-        /* code */
+        cout << decToBinary(i);
     }
-    
+
     return 0;
 }
