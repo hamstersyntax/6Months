@@ -7,7 +7,7 @@ int main()
     string binary = "";
     while (num > 0)
     {
-        
+        binary = to_string(num%2)
     }
     
     return 0;
