@@ -16,8 +16,8 @@ int main()
     for (int i = 0; i < 10; i++)
     {
         i != 0
-            ? cout << i << " - " << decToBinary(i) << end;
-       :cout << i << " - " << "0" << end;
+            ? cout << i << " - " << decToBinary(i) << endl
+            : cout << i << " - " << "0" << endl;
     }
 
     return 0;
