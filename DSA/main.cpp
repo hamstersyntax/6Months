@@ -8,7 +8,7 @@ int reverse(int n)
     int rem;
     while (n > 0)
     {
-      cout <<  n % 10;
+        result = n % 10;
         n /= 10;
     }
 }
