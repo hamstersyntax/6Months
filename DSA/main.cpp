@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int num = 70;
+    int num = 42;
     string binary = "";
     while (num > 0)
     {
@@ -11,6 +11,5 @@ int main()
         num /= 2;
     }
     cout << binary;
-
     return 0;
 }
