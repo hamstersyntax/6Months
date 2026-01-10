@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -7,8 +7,10 @@ int main()
     string binary = "";
     while (num > 0)
     {
-        binary = to_string(num%2)
+        binary = to_string(num % 2) + binary;
+        num /= 2;
     }
-    
+    cout << binary;
+
     return 0;
 }
