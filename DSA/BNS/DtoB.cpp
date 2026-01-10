@@ -10,6 +10,6 @@ int main()
         binary = to_string(num % 2) + binary;
         num /= 2;
     }
-    cout << binary;
+    cout << binary; // 101010
     return 0;
 }
