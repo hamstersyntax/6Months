@@ -4,7 +4,8 @@ string decToBinary (int num){
     string binary = "";
     while (num>0)
     {
-        binary 
+        binary = to_string(num%2)+binary;
+        
     }
     
 }
