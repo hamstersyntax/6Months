@@ -18,6 +18,7 @@ int main()
     {
         rem = num % 2;
         decNum += 2 * power(10, rem);
+        num = num / 2;
     }
 
     return 0;
