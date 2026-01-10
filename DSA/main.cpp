@@ -8,7 +8,8 @@ int reverse(int n)
     int rem;
     while (n > 0)
     {
-       return result = n % 10;
+       result = n % 10;
+       
         n /= 10;
     }
 }
