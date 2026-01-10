@@ -7,6 +7,7 @@ int reverse(int n)
     int result = 0;
     while (n > 0)
     {
+        n % 2
     }
 }
 int main()
