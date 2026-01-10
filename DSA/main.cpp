@@ -19,7 +19,7 @@ int main()
     //     rem = num % 2;
     //     decNum += 2 * 10;
     // }
-   cout << power(2,2);
+   cout << power(2,3);
 
     return 0;
 }
