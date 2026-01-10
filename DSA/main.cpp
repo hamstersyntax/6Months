@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
-string decToBinary (){
-    
+string decToBinary (int num){
+    string binary
 }
 int main()
 {
