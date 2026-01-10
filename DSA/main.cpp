@@ -9,7 +9,7 @@ int main()
     while (num > 0)
     {
        rem = num%2;
-       decNum += 2*10pow();
+       decNum += 2*10;
     }
     
     return 0;
