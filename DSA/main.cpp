@@ -1,26 +1,8 @@
-#include <iostream>
-#include <cmath>
+#include<iostream>
 using namespace std;
-int power(int n, int b)
-{
-    int pow = 1;
-    for (int i = 0; i < b; i++)
-    {
-        pow *= n;
-    }
-    return pow;
-}
+
 int main()
 {
-    int num = 5;
-    int rem, decNum;
-    while (num > 0)
-    {
-        rem = num % 2;
-        decNum += 2 * power(10, rem);
-        num = num / 2;
-    }
-    cout << decNum;
-
+    
     return 0;
 }
