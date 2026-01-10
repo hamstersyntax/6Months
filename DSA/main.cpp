@@ -8,14 +8,14 @@ int reverse(int n)
     int rem;
     while (n > 0)
     {
-       result = n % 10;
-       
+        result = n % 10;
+        
         n /= 10;
     }
 }
 int main()
 {
-    reverse(123);
+    reverse(101);
 
     return 0;
 }
