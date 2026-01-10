@@ -1,7 +1,9 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-int po
+int power(int n , int b){
+    
+}
 int main()
 {
     int num =5 ;
