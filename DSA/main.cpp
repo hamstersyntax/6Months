@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-int reverse(int n)
+int binaryToDecimal(int n)
 {
 
     int result = 0;
@@ -15,7 +15,7 @@ int reverse(int n)
 }
 int main()
 {
-    reverse(101010);
+    binaryToDecimal(101010);
 
     return 0;
 }
