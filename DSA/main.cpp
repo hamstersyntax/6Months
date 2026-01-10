@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int num = 5;
+    int num = 70;
     string binary = "";
     while (num > 0)
     {
