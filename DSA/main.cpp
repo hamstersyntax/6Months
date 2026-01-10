@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
-string dec
+string decToBinary (){
+    
+}
 int main()
 {
     
