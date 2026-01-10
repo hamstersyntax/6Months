@@ -5,9 +5,11 @@ int reverse(int n)
 {
 
     int result = 0;
+    int rem ;
     while (n > 0)
     {
-        n % 2
+        rem = n % 2;
+        n
     }
 }
 int main()
