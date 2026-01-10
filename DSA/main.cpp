@@ -20,6 +20,7 @@ int main()
         decNum += 2 * power(10, rem);
         num = num / 2;
     }
+    cout << decNum;
 
     return 0;
 }
