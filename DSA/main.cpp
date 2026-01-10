@@ -3,9 +3,10 @@
 using namespace std;
 int power(int n, int b)
 {
+    int pow;
     for (int i = 0; i < b; i++)
     {
-       re n *b;
+        pow =  n *b;
     }
 }
 int main()
