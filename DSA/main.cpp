@@ -17,9 +17,8 @@ int main()
     while (num > 0)
     {
         rem = num % 2;
-        decNum += 2 * 10;
+        decNum += 2 * power(10, rem);
     }
-   
 
     return 0;
 }
