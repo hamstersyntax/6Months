@@ -6,7 +6,7 @@ int power(int n, int b)
     int pow;
     for (int i = 0; i < b; i++)
     {
-        pow = n * b;
+        pow *= b;
     }
     return pow;
 }
