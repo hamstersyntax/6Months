@@ -8,7 +8,7 @@ int main()
     while (num > 0)
     {
        rem = num%2;
-       
+       decNum += 
     }
     
     return 0;
