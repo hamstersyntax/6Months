@@ -3,7 +3,7 @@
 using namespace std;
 int power(int n, int b)
 {
-    int pow;
+    int pow = 1;
     for (int i = 0; i < b; i++)
     {
         pow *= n;
@@ -14,12 +14,12 @@ int main()
 {
     int num = 5;
     int rem, decNum;
-    // while (num > 0)
-    // {
-    //     rem = num % 2;
-    //     decNum += 2 * 10;
-    // }
-   cout << power(2,3);
+    while (num > 0)
+    {
+        rem = num % 2;
+        decNum += 2 * 10;
+    }
+   
 
     return 0;
 }
