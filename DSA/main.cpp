@@ -15,7 +15,7 @@ int reverse(int n)
 }
 int main()
 {
-    reverse(101);
+    reverse(101010);
 
     return 0;
 }
