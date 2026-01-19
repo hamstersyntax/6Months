@@ -1,21 +1,13 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
-int binaryToDecimal(int n)
-{
 
-    int result = 0;
-    int rem;
-    while (n > 0)
-    {
-        result += pow(2, n % 10);
-        n /= 10;
-    }
-    cout << result;
-}
 int main()
 {
-    binaryToDecimal(101010);
-
+    char c = 'A';                     // original character
+    int key = 10;                     // secret key
+    char encrypted = c ^ key;         // encrypt
+    char decrypted = encrypted ^ key; // decrypt
+    cout << "encrypted : " << encrypted << endl;
+    cout << "decrypted : " << decrypted << endl;
     return 0;
 }
